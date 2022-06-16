@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <title>Doceria</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <h1 class="cabecalho-logo">Doceria</h1> 
+        <nav class="cabecalho-navegacao">
+            <ul>
+                <li class="cabecalho-link"><a href="../home2/index.html#sobre-link">Sobre</a></li>
+                <li class="cabecalho-link"><a href="../home2/index.html#produtos-link">Produtos</a></li>
+                <li class="cabecalho-link"><a href="../home2/index.html#contato-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="principal container">
+            <h1 class="principal-titulo">O doce perfeito assado todo dia</h1>
+           
+            <a href="../home2/index.html#pedidos-link" class="principal-botao botao">Faça seu pedido!</a>
+        </section>
+        <section class="produtos container">
+            <h2 id="produtos-link" class="produtos-titulo">Produtos</h2>
+            <div class="produtos-grid">
+                <div >
+                   
+                    <img class="imagens-produtos" src="https://i.pinimg.com/564x/6a/3e/26/6a3e2669b15b58484fb3861f5c2f1729.jpg" alt="brownies">
+                    <figcaption>Deliciosos pedaços de brownies 50% cacau</figcaption>
+                </div>
+                <div >
+                  
+                    <img class="imagens-produtos" src="https://i.pinimg.com/564x/cf/99/9f/cf999fa3ecbc99b1f26b72f282c026cd.jpg" alt="cookies">
+                     <figcaption>Cookies traicionais com gotas de chocolate que derretem na boca</figcaption>
+                </div>
+                <div >
+                    <img class="imagens-produtos" src="https://i.pinimg.com/564x/4f/50/b7/4f50b7ab44daf82c558018d63d167f79.jpg" alt="bento-cake">
+                     <figcaption>Massa areada com cobertura de chantilly e recheio de chocolate
+                     </figcaption>
+                </div>
+                <div >
+                    <img class="imagens-produtos" src="https://i.pinimg.com/564x/c2/e9/13/c2e91337f7a8b660f3ddc13219380e43.jpg" alt="croissant">
+                  <figcaption>Massa feita do zero com manteiga de melhor qualidade para um melhor resultado</figcaption>
+                </div>
+            </div>
+        </section>
+        <section class="sobre container">
+            <div class="sobre-conteudo">
+                <h2 id="sobre-link" class="sobre-titulo">Sobre</h2>
+                <p class="sobre-texto">
+                    A nossa confeitaria traz para o mercado o que
+                    há de melhor para o seu paladar. Fundada em 2019, Doceria
+                    já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                <p class="sobre-texto"> Nossa missão é "Proporcionar uma boa alimentação sem presisar pagar muito".</p>
+
+                <p class="sobre-texto">Oferecemos profissionais experientes e antenados às mudanças no mundo da gastronomia. O atendimento possui
+                    padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+               
+               
+            </div>
+        </section>
+        <form class="container">
+            <h2 class="form-titulo" id="pedidos-link">Peça Aqui</h2>
+            <div class="form-grupo">
+            <label class="label" for="endereço"  >Endereço</label>
+            <input class='input-form'type="text" id="enedereço"  placeholder="Digite seu endereço" required >
+            </div>
+
+            <div class="form-grupo">
+                <label class="label" for="produtos-select">O que você deseja</label>
+                <select name="select" id="produtos-select"  class= selecionar-label > 
+
+                <option disabled selected >Selecione uma opcao</option>
+                <option value="brownie">Brownie</option>
+                <option value="Cookies">Cookies</option>
+                <option value="Bento-cake">Bento-cake</option>
+                <option value="Croissant">Croissant</option>
+
+                </select>  
+            </div>
+
+            <div class="form-grupo">
+            <label class="label" for="quantidade">Quantidade</label>
+            <input class="input-form" type="number" id="quantidade" placeholder="Qntd" min="1">
+            </div>
+            
+
+        <div class="form-grupo">
+            <p class="paragrafo"> Alguma sugestao?</p>
+            <textarea name="sugestoes" placeholder="Comente aqui." cols="10" rows="10" ></textarea>
+        </div>
+
+        <div class="form-grupo">
+            <button type="submit" class="botao">Pedir</button>
+        </div> 
+     </form>  
+     <section class="contato container">
+        <h2 class="contato-titulo" id="contato-link">Contato</h2>
+        <p>Entre em contato com a gente</p>
+        <p><a href="tel:+551155712751" class="contato-telefone">(91) 99111-3627</a> ou <a href="mailto:contato@apeperia.com" class="contato-email">contato@doceria.com</a></p>
+        <img class="contato-desenho" src="desenho.png" alt="desenho">
+        
+    </section>  
+    <footer class="rodape container">
+        <h1 class="rodape-logo">Doceria</h1>
+      
+        <nav>
+            <ul class="rodape-navegacao">
+                <li class="rodape-link"><a href="../home2/index.html#sobre-link">Sobre</a></li>
+                <li class="rodape-link"><a href="#">Produtos</a></li>
+                <li class="rodape-link"><a href="#">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </footer>
+    
+
+    </main>
+</body>
+</html>

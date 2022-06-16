@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+/*header*/
+.cabecalho {
+    background-color: darksalmon;
+    color:white;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+   
+    position: absolute;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.cabecalho-logo {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.cabecalho-navegacao {
+    text-align: center;
+}
+
+.cabecalho-link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
+
+.cabecalho-link a:hover{
+   color: rgb(228, 92, 47)
+}
+
+.botao:hover{
+    background-color: rgba(233, 174, 87, 0.678);
+}
+/*-----PRIMEIRA PARTE-----*/
+.principal  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    
+    background-color:darksalmon;
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.principal-titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.principal-texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.principal-botao {
+    width: 100%;
+}
+/*-----PARET DOS PRODUTOS-----*/
+.produtos-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20rem);
+    justify-content: center;
+ 
+}
+.produtos{
+    padding: 20px;
+    margin-bottom: 2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  
+}
+.produtos-titulo{
+    color: darksalmon;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.imagens-produtos{
+   border: 3px solid white;
+   border-radius: 50px;
+   height: 90%;
+   width: 90%;
+}
+/*------SOBRE-----*/
+.sobre {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.sobre-titulo {
+    color: darksalmon;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.sobre-texto {
+    line-height: normal;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom: 1rem;
+}
+/*-----FORMULARIO DE PEDIDO----- */
+.form-titulo{
+    color: darksalmon;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom: 1.25rem;
+   
+}
+.form-grupo{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction:column;
+    margin:1rem;
+    max-width: 600px;
+    width: 100%;
+    color: darksalmon;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  
+   
+}
+.label{
+   padding-bottom: 10px;
+}
+.input-form{
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 15px;
+}
+.selecionar-label{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.paragrafo{
+    padding: 10px;
+}
+textarea {
+    resize: none;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+.botao{
+    background-color: darksalmon;
+    color: white;
+    font-size: 1rem;
+}
+/*-----CONTATO-----*/
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.contato-titulo {
+    color: darksalmon;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+.contato-desenho{
+    width: 100vw;
+    max-width: 600px;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: darksalmon;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+.rodape-logo{
+    font-size: 2rem;
+    color: white;
+}
+
+.rodape-navegacao {
+    color: white;
+    text-align: center;
+    line-height: 3;
+    font-size: 1.5rem;
+}
+
+
+.rodape-link {
+    display: inline-block;
+
+    margin: 0 .5rem .7rem;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .contato-email {
+        display: inline-block;
+    }
+
+ }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+       
+        border: none;
+    }
+    .principal {
+      
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .principal-titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+     }
+    .contato-email {
+        display: block;
+    }
+    .sobre {
+        display: flex;
+    }
+    .sobre-conteudo {
+        margin-right: 3rem;
+    }
+    .sobre-titulo, .produtos-titulo {
+        text-align: left;
+    }
+    .sobre-imagem {
+        display: block;
+    }
+    .rodape {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .rodape-navegacao {
+        text-align: left;
+
+        min-width: 600px;
+    }
+
+
+}
+
+
+
